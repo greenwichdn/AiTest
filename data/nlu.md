@@ -54,3 +54,13 @@
 - not very good
 - extremely sad
 - so sad
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- Tom Tom
+=======
+
+## intent:mood_unhappy1
+-aaa
+>>>>>>> 5dd6c052d0bd69e3b26a9d07de7564fe83cefa5b
+>>>>>>> 99d8a8c92ff6d726d5a13be1d14593762be0704a
