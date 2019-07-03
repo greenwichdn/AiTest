@@ -1,3 +1,5 @@
+##intent:budget
+- $400
 ## intent:greet
 - hey
 - hello
