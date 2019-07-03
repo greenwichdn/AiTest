@@ -1,4 +1,5 @@
 ##intent:budget
+- $400
 - not more than $400
 - less than $200
 - below 300 usd
@@ -54,5 +55,4 @@
 - extremely sad
 - so sad
 
-## intent:mood_unhappy1
--aaa
+
