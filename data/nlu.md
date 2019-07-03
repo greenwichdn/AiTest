@@ -4,6 +4,7 @@
 - less than $200
 - below 300 usd
 - up to 1000 bucks
+- around 500 dollars
 ## intent:greet
 - hey
 - hello
