@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7855d80a-2c59-42ad-8702-62bd06409f53" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/nlu.md" beforeDir="false" afterPath="$PROJECT_DIR$/data/nlu.md" afterDir="false" />
+>>>>>>> e4814765b5f64a28dcdc465904fb678295c6c289
+>>>>>>> 5ac02a0c19f960bb5e793fcca369a0ed5e9de857
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,33 +22,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/stories.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-136" />
+=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/stories.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/nlu.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="102">
-                <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-              </first_editor>
+>>>>>>> e4814765b5f64a28dcdc465904fb678295c6c289
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/nlu.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+<<<<<<< HEAD
+              <first_editor relative-caret-position="102">
+                <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+=======
+              <first_editor relative-caret-position="90">
+                <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+>>>>>>> 5ac02a0c19f960bb5e793fcca369a0ed5e9de857
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/domain.yml">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="85">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+=======
             <state relative-caret-position="119">
               <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+<<<<<<< HEAD
+=======
+>>>>>>> e4814765b5f64a28dcdc465904fb678295c6c289
+>>>>>>> 5ac02a0c19f960bb5e793fcca369a0ed5e9de857
             </state>
           </provider>
         </entry>
@@ -48,17 +79,50 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1367" />
+    <option name="height" value="769" />
+=======
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/data/nlu.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="width" value="1368" />
     <option name="height" value="769" />
+=======
+    <option name="width" value="1367" />
+    <option name="height" value="768" />
+>>>>>>> e4814765b5f64a28dcdc465904fb678295c6c289
+>>>>>>> 5ac02a0c19f960bb5e793fcca369a0ed5e9de857
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
+<<<<<<< HEAD
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AiTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+=======
+>>>>>>> e4814765b5f64a28dcdc465904fb678295c6c289
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -92,18 +156,47 @@
       <option name="presentableId" value="Default" />
       <updated>1562144792957</updated>
       <workItem from="1562144800009" duration="2067000" />
+<<<<<<< HEAD
+      <workItem from="1562148916765" duration="656000" />
+=======
       <workItem from="1562147978954" duration="7000" />
+<<<<<<< HEAD
       <workItem from="1562149445366" duration="356000" />
+=======
+      <workItem from="1562149173800" duration="57000" />
+      <workItem from="1562149249837" duration="363000" />
+>>>>>>> e4814765b5f64a28dcdc465904fb678295c6c289
+>>>>>>> 5ac02a0c19f960bb5e793fcca369a0ed5e9de857
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="2430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25737265" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="2723000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25268096" />
+=======
+    <option name="totallyTimeSpent" value="2494000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26172465" />
+>>>>>>> e4814765b5f64a28dcdc465904fb678295c6c289
+>>>>>>> 5ac02a0c19f960bb5e793fcca369a0ed5e9de857
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -117,7 +210,15 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32797858" />
+=======
+<<<<<<< HEAD
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3281471" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32569557" />
+>>>>>>> e4814765b5f64a28dcdc465904fb678295c6c289
+>>>>>>> 5ac02a0c19f960bb5e793fcca369a0ed5e9de857
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -140,21 +241,18 @@
         <state relative-caret-position="-97" />
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/domain.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+=======
     <entry file="file://$PROJECT_DIR$/data/stories.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/nlu.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="102">
-            <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
+>>>>>>> e4814765b5f64a28dcdc465904fb678295c6c289
         </state>
       </provider>
     </entry>
@@ -165,5 +263,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/nlu.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+<<<<<<< HEAD
+          <first_editor relative-caret-position="102">
+            <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+=======
+          <first_editor relative-caret-position="90">
+            <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+>>>>>>> 5ac02a0c19f960bb5e793fcca369a0ed5e9de857
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/domain.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/data/stories.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-136" />
+          <second_editor />
+>>>>>>> 5ac02a0c19f960bb5e793fcca369a0ed5e9de857
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> e4814765b5f64a28dcdc465904fb678295c6c289
   </component>
 </project>
