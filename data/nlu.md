@@ -1,8 +1,5 @@
 ##intent:budget
-- not more than $400
-- less than $200
-- below 300 usd
-- up to 1000 bucks
+- $400
 ## intent:greet
 - hey
 - hello
@@ -53,4 +50,10 @@
 - not very good
 - extremely sad
 - so sad
+<<<<<<< HEAD
 - Tom Tom
+=======
+
+## intent:mood_unhappy1
+-aaa
+>>>>>>> 5dd6c052d0bd69e3b26a9d07de7564fe83cefa5b
