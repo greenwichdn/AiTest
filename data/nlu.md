@@ -1,8 +1,5 @@
 ##intent:budget
-- not more than $400
-- less than $200
-- below 300 usd
-- up to 1000 bucks
+- $400
 ## intent:greet
 - hey
 - hello
