@@ -69,7 +69,9 @@
 - I'm a man
 - I'm a [man](Text)
 - Medium
+<<<<<<< HEAD
 >>>>>>> 9edc4aa0b1fe1da331982450b576b15cf3e86445
+=======
 
 ## intent:mood_anger
 - noway for that
