@@ -75,7 +75,8 @@ templates:
   - text: ok let me see what else there is.
   utter_ack_makeorder:
   - text: ok i want to order this.
-
+  utter_ask_anythingelse:
+  - text: anything else sir/madam?
 actions:
 - utter_cheer_up
 - utter_did_that_help
@@ -94,3 +95,4 @@ actions:
 - utter_ack_dosearch
 - utter_ack_findalternatives
 - utter_ack_makeorder
+- utter_ask_anythingelse
