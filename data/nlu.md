@@ -46,7 +46,6 @@
 - Hello
 
 ## intent:inform
-<<<<<<< HEAD
 - i want to buy a [pant](category)
 - i want to buy a [short](detailcategory)
 - i am [male](gender)
@@ -55,23 +54,8 @@
 - the price range is [under 100$](price_range)
 - my preferred type is [authentic brand](type)
 - my age is [18](age)
-=======
-- i want to buy a pant
-- i want to buy a short
-- i am male
-- my size is M
-- i choose black one
-- the price range is under 100$
-- my preferred type is authentic brand
-- my age is 18
-- I want to buy a pant
-- I want to buy a pant
-- I'm a man
-- I'm a [man](Text)
-- Medium
-<<<<<<< HEAD
->>>>>>> 9edc4aa0b1fe1da331982450b576b15cf3e86445
-=======
+- I'm a [man](gender)
+- [Medium](size)
 
 ## intent:mood_anger
 - noway for that
