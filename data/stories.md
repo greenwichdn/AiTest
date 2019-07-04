@@ -32,7 +32,7 @@
 * thankyou
 =======
 * goodbye
- 
+
 ## story1_positive2
 * greet
  - utter_ask_howcanhelp
@@ -153,7 +153,7 @@
  - utter_ask_anythingelse
 * deny
 * goodbye
- 
+
 ## story2_negative2
 * greet
  - utter_ask_howcanhelp
@@ -193,7 +193,7 @@
  - utter_ask_anythingelse
 * deny
 * goodbye
- 
+
 ## story3:stringinput1_positive
 * greet
  - utter_ask_howcanhelp
@@ -222,6 +222,7 @@
  - utter_goodbye
 
 <<<<<<< HEAD
+
 ## sad path 2
 * greet
   - utter_greet
@@ -233,3 +234,20 @@
 =======
 >>>>>>> 8d1750abd62e5329f2bafa6e3bedab4e19c5ee0b
 
+## New Story
+
+* greet
+* inform
+* mood_surprise
+
+## Generated Story 7896886473463180819
+* greet
+    - utter_greet
+    - utter_ask_howcanhelp
+* inform
+    - utter_ask_gender
+* inform
+    - rewind
+* inform{"Text": "man"}
+    - utter_ask_size
+* inform
