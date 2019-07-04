@@ -208,7 +208,7 @@
  - utter_ask_moreupdates
 * deny
  - utter_ack_dosearch
- - action_search_restaurants
+ - action_search_item
  - action_suggest
 * deny
  - utter_ack_findalternatives

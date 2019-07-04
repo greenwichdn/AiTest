@@ -96,3 +96,5 @@ actions:
 - utter_ack_findalternatives
 - utter_ack_makeorder
 - utter_ask_anythingelse
+- action_suggest
+- action_search_item
