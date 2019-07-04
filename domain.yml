@@ -5,6 +5,13 @@ intents:
 - greet
 - mood_great
 - mood_unhappy
+- postpone
+- continue
+- mood_happiness
+- mood_sadness
+- mood_fear
+- mood_surprise
+- mood_anger
 templates:
   utter_greet:
   - text: Hey! How are you?
