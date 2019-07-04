@@ -1,74 +1,73 @@
+%YAML 1.1
+---
+actions:
+- action_search_item
+- action_suggest
+- utter_ack_dosearch
+- utter_ack_findalternatives
+- utter_ack_makeorder
+- utter_ask_anythingelse
+- utter_ask_color
+- utter_ask_gender
+- utter_ask_howcanhelp
+- utter_ask_morecategory
+- utter_ask_moreupdates
+- utter_ask_price_range
+- utter_ask_size
+- utter_ask_type
+- utter_cheer_up
+- utter_did_that_help
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_on_it
+entities:
+- Text
+- age
+- category
+- color
+- detailcategory
+- gender
+- size
+- type
+intents:
+- inform
+- greet
+- affirm
+- continue
+- deny
+- goodbye
+- mood_anger
+- mood_fear
+- mood_great
+- mood_happiness
+- mood_sadness
+- mood_surprise
+- mood_unhappy
+- postpone
+- thankyou
+- review
+- buy_bonus
+- mood_disgust
+- gossip
 slots:
+  age:
+    type: text
   category:
+    type: text
+  color:
     type: text
   detailcategory:
     type: text
   gender:
     type: text
-  size:
-    type: text
-  color:
-    type: text
   price_range:
+    type: text
+  size:
     type: text
   type:
     type: text
-  age:
-    type: text
-entity:
-- category
-- detailcategory
-- gender
-- size
-- color
-- price_range
-- type
-- age
-intents:
-- affirm
-- deny
-- goodbye
-- greet
-- inform
-- mood_great
-- mood_unhappy
-- postpone
-- continue
-- mood_happiness
-- mood_sadness
-- mood_fear
-- mood_surprise
-- mood_anger
 templates:
-  utter_greet:
-  - text: Hey! How are you?
-  utter_cheer_up:
-  - text: 'Here is something to cheer you up:'
-    image: https://i.imgur.com/nGF1K8f.jpg
-  utter_did_that_help:
-  - text: Did that help you?
-  utter_happy:
-  - text: Great carry on!
-  utter_goodbye:
-  - text: Bye
-  utter_ask_howcanhelp:
-  - text: How can i help you?
-  utter_on_it:
-  - text: I'm on it now.
-  utter_ask_morecategory:
-  - text: can you give me more details about your category?
-  utter_ask_gender:
-  - text: are you male, female or others?
-  utter_ask_size:
-  - text: how big is your cloth?
-  utter_ask_color:
-  - text: which color is your choice?
-  utter_ask_price_range:
-  - text: how much you can pay?
-  utter_ask_type:
-  - text: which is your preferred type of cloth?
-  utter_ask_moreupdates:
-  - text: can you give more information?
   utter_ack_dosearch:
   - text: ok let me see what I can find.
   utter_ack_findalternatives:
@@ -77,24 +76,32 @@ templates:
   - text: ok i want to order this.
   utter_ask_anythingelse:
   - text: anything else sir/madam?
-actions:
-- utter_cheer_up
-- utter_did_that_help
-- utter_goodbye
-- utter_greet
-- utter_happy
-- utter_ask_howcanhelp
-- utter_on_it
-- utter_ask_morecategory
-- utter_ask_gender
-- utter_ask_size
-- utter_ask_color
-- utter_ask_price_range
-- utter_ask_type
-- utter_ask_moreupdates
-- utter_ack_dosearch
-- utter_ack_findalternatives
-- utter_ack_makeorder
-- utter_ask_anythingelse
-- action_suggest
-- action_search_item
+  utter_ask_color:
+  - text: which color is your choice?
+  utter_ask_gender:
+  - text: are you male, female or others?
+  utter_ask_howcanhelp:
+  - text: How can i help you?
+  utter_ask_morecategory:
+  - text: can you give me more details about your category?
+  utter_ask_moreupdates:
+  - text: can you give more information?
+  utter_ask_price_range:
+  - text: how much you can pay?
+  utter_ask_size:
+  - text: how big is your cloth?
+  utter_ask_type:
+  - text: which is your preferred type of cloth?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey! How are you?
+  utter_happy:
+  - text: Great carry on!
+  utter_on_it:
+  - text: I'm on it now.
