@@ -8,6 +8,10 @@
 - good afternoon
 - hi there
 
+## intent:thankyou
+- thank you for choosing your shop
+- thanks for buying
+
 ## intent:goodbye
 - bye
 - goodbye
@@ -39,6 +43,17 @@
 - im here
 - im back baby
 - the king returns
+
+## intent:inform
+- i want to buy a pant
+- i want to buy a short
+- i am male
+- my size is M
+- i choose black one
+- the price range is under 100$
+- my preferred type is authentic brand
+- my age is 18
+
 
 // basic emotions
 ## intent:mood_happiness
@@ -82,65 +97,6 @@
 - ew those holes on the shirts
 - the stripe make me want to vomit
 - how can a yellow jean can match a purple raincoat
-
-// basic choices
-## intent:location
-- Vietnam
-- China
-- USA
-- UK
-
-## intent:gender
-- male
-- female
-- other
-
-## intent:age
-- under 18
-- 18 to 40
-- 41 to 80
-- over 80
-
-## intent:type
-- bottom
-- top
-- underwear
-- accessories
-- headwears
-- shoes
-
-## intent:brand
-- gucci
-- hermes
-- prada
-- chanel
-
-## intent:size
-- S
-- M
-- L
-
-## intent:color
-- red
-- green
-- blue
-
-## intent:extra_condition
-- striped
-- cross
-- dotted
-
-## intent:price_range
-- under 100$
-- 100$ to 200$
-- 200$ to 300$
-- over 300$
-
-## intent:quantity
-- 1
-- 2
-- 3 to 10
-- over 10
 
 // bonus action
 ## intent:gossip

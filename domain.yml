@@ -1,8 +1,35 @@
+slots:
+  category:
+    type: text
+  detailcategory:
+    type: text
+  gender:
+    type: text
+  size:
+    type: text
+  color:
+    type: text
+  price_range:
+    type: text
+  type:
+    type: text
+  age:
+    type: text
+entity:
+- category
+- detailcategory
+- gender
+- size
+- color
+- price_range
+- type
+- age
 intents:
 - affirm
 - deny
 - goodbye
 - greet
+- inform
 - mood_great
 - mood_unhappy
 - postpone
@@ -26,6 +53,29 @@ templates:
   - text: Bye
   utter_ask_howcanhelp:
   - text: How can i help you?
+  utter_on_it:
+  - text: I'm on it now.
+  utter_ask_morecategory:
+  - text: can you give me more details about your category?
+  utter_ask_gender:
+  - text: are you male, female or others?
+  utter_ask_size:
+  - text: how big is your cloth?
+  utter_ask_color:
+  - text: which color is your choice?
+  utter_ask_price_range:
+  - text: how much you can pay?
+  utter_ask_type:
+  - text: which is your preferred type of cloth?
+  utter_ask_moreupdates:
+  - text: can you give more information?
+  utter_ack_dosearch:
+  - text: ok let me see what I can find.
+  utter_ack_findalternatives:
+  - text: ok let me see what else there is.
+  utter_ack_makeorder:
+  - text: ok i want to order this.
+
 actions:
 - utter_cheer_up
 - utter_did_that_help
@@ -33,3 +83,14 @@ actions:
 - utter_greet
 - utter_happy
 - utter_ask_howcanhelp
+- utter_on_it
+- utter_ask_morecategory
+- utter_ask_gender
+- utter_ask_size
+- utter_ask_color
+- utter_ask_price_range
+- utter_ask_type
+- utter_ask_moreupdates
+- utter_ack_dosearch
+- utter_ack_findalternatives
+- utter_ack_makeorder

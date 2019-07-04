@@ -31,7 +31,7 @@
 * affirm
  - utter_ack_makeorder
 * thankyou
- - utter_goodbye
+* goodbye
 
 ## simple2:stringinput1
 * greet
@@ -65,7 +65,7 @@
 ## sad path 2
 * greet
   - utter_greet
-* mood_unhappy
+* mood_sadness
   - utter_cheer_up
   - utter_did_that_help
 * deny
