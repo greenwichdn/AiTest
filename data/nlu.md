@@ -79,8 +79,8 @@
 
 ## intent:mood_disgust
 - ew those holes on the shirts
-- the stripe make me vomitted
-- how a yellow jean can match a purple raincoat
+- the stripe make me want to vomit
+- how can a yellow jean can match a purple raincoat
 
 // basic choices
 ## intent:location
@@ -101,9 +101,12 @@
 - over 80
 
 ## intent:type
-- coat
-- shorts
+- bottom
+- top
 - underwear
+- accessories
+- headwears
+- shoes
 
 ## intent:brand
 - gucci
