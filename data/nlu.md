@@ -30,9 +30,10 @@
 - not really
 
 ## intent:postpone
-- i will be back
-- wait me a minute
-- keep my seat until i come
+- I will be back.
+- Wait a minute.
+- Let me think
+- Hold on, I'll be back.
 
 ## intent:continue
 - im here
