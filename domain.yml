@@ -52,13 +52,15 @@ slots:
   type:
     type: text
 templates:
+  utter_acknowledge:
+  - text: thank you, I have received the details!
   utter_ask_age:
   - text: May I ask how old are you?
   utter_ack_dosearch:
   - text: ok let me see what I can find.
   utter_ack_findalternatives:
   - text: ok let me see what else there is.
-  utter_ack_makeorder:
+  utter_ack_order:
   - text: ok I'll place an order for you
   utter_ask_anythingelse:
   - text: anything else sir/madam?
@@ -66,12 +68,12 @@ templates:
   - text: Which color do you prefer?
   utter_ask_gender:
   - text: Are you trying to buy clothes for a man or woman?
-  utter_ask_howcanhelp:
-  - text: How can i help you?
+  utter_ask_inquire:
+  - text: How can I help you?
   utter_ask_category:
   - text: What category of clothing you're trying to buy?
-  utter_ask_moreupdates:
-  - text: Can you give more information?
+  utter_ask_more:
+  - text: Is there anything else?
   utter_ask_size:
   - text: What is your size?
   utter_ask_brand:
@@ -89,12 +91,13 @@ templates:
   - text: Great carry on!
   utter_on_it:
   - text: I'm on it now.
+  utter_find_alternatives:
+  - text: okay, I'll find something else.
 actions:
 - action_search_item
 - action_suggest
-- utter_ack_dosearch
-- utter_ack_findalternatives
-- utter_ack_makeorder
+- utter_acknowledge
+- utter_ack_order
 - utter_ask_age
 - utter_ask_anythingelse
 - utter_ask_brand
@@ -110,3 +113,4 @@ actions:
 - utter_greet
 - utter_happy
 - utter_on_it
+- utter_find_alternatives
