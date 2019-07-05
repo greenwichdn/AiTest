@@ -1,47 +1,19 @@
-%YAML 1.1
----
-actions:
-- action_search_item
-- action_suggest
-- utter_ack_dosearch
-- utter_ack_findalternatives
-- utter_ack_makeorder
-- utter_ask_anythingelse
-- utter_ask_color
-- utter_ask_gender
-- utter_ask_howcanhelp
-- utter_ask_morecategory
-- utter_ask_moreupdates
-- utter_ask_price_range
-- utter_ask_size
-- utter_ask_type
-- utter_cheer_up
-- utter_did_that_help
-- utter_goodbye
-- utter_greet
-- utter_happy
-- utter_on_it
-entities:
-- age
-- category
-- color
-- gender
-- size
-- brand
 intents:
-- inform
-- give_gender
-- give_size
-- give_category
-- give_age
-- give_brand
-- give_color
-- greet
 - affirm
+- buy_bonus
 - continue
 - deny
+- give_age
+- give_brand
+- give_category
+- give_color
+- give_gender
+- give_size
 - goodbye
+- greet
+- inform
 - mood_anger
+- mood_disgust
 - mood_fear
 - mood_great
 - mood_happiness
@@ -50,8 +22,18 @@ intents:
 - mood_unhappy
 - postpone
 - thanks
-- buy_bonus
-- mood_disgust
+- thankyou
+- gossip
+entities:
+- Text
+- age
+- brand
+- category
+- color
+- detailcategory
+- gender
+- size
+- type
 slots:
   age:
     type: text
@@ -107,3 +89,24 @@ templates:
   - text: Great carry on!
   utter_on_it:
   - text: I'm on it now.
+actions:
+- action_search_item
+- action_suggest
+- utter_ack_dosearch
+- utter_ack_findalternatives
+- utter_ack_makeorder
+- utter_ask_age
+- utter_ask_anythingelse
+- utter_ask_brand
+- utter_ask_category
+- utter_ask_color
+- utter_ask_gender
+- utter_ask_howcanhelp
+- utter_ask_moreupdates
+- utter_ask_size
+- utter_cheer_up
+- utter_did_that_help
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_on_it

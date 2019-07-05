@@ -28,11 +28,9 @@
  - action_suggest
 * affirm
  - utter_ack_makeorder
-<<<<<<< HEAD
 * thankyou
-=======
 * goodbye
-
+<<<<<<< HEAD=======
 ## story1_positive2
 * greet
  - utter_ask_howcanhelp
