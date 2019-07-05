@@ -1,3 +1,15 @@
+## lookup:top
+   data/category/top.txt
+   
+## lookup:bot
+   data/category/bot.txt
+   
+## lookup:accessories
+   data/category/accessories.txt
+   
+## lookup:color
+   data/color/color.txt   
+   
 ## intent:affirm
 - yes
 - indeed

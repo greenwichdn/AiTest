@@ -1,0 +1,16 @@
+stockings
+socks
+high heels
+sandals
+stilettos
+trainers
+wellingtons
+slippers
+shoelace
+boots
+gloves
+hat
+baseball cap
+scarf
+tie
+bow tie

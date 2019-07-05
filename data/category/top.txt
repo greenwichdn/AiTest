@@ -1,0 +1,20 @@
+blouse
+leather jacket
+vest
+blazer
+swimming costume
+pyjamas
+nightdress
+dressing gown
+bikini
+overcoat
+suit
+shirt
+t-shirt
+raincoat
+anorak
+pullover
+sweater
+cardigan
+jumper
+dinner jacket
