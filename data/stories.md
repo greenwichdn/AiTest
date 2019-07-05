@@ -47,7 +47,7 @@
 * deny
  - utter_ask_more
 * inform{"type": "authentic brand"}
- - utter_ask_ore
+ - utter_ask_more
 * inform{"age":"18"}
  - utter_ask_more
 * deny
@@ -74,7 +74,7 @@
  - action_search_item
  - action_suggest
 * deny
- - utter_ack_find_alternatives
+ - utter_find_alternatives
  - action_suggest
 * affirm
  - utter_ask_more

@@ -10,6 +10,7 @@ intents:
 - give_gender
 - give_size
 - goodbye
+- gossip
 - greet
 - inform
 - mood_anger
@@ -23,7 +24,6 @@ intents:
 - postpone
 - thanks
 - thankyou
-- gossip
 entities:
 - Text
 - age
@@ -96,21 +96,21 @@ templates:
 actions:
 - action_search_item
 - action_suggest
-- utter_acknowledge
 - utter_ack_order
+- utter_acknowledge
 - utter_ask_age
 - utter_ask_anythingelse
 - utter_ask_brand
 - utter_ask_category
 - utter_ask_color
 - utter_ask_gender
-- utter_ask_howcanhelp
-- utter_ask_moreupdates
+- utter_ask_inquire
+- utter_ask_more
 - utter_ask_size
 - utter_cheer_up
 - utter_did_that_help
+- utter_find_alternatives
 - utter_goodbye
 - utter_greet
 - utter_happy
 - utter_on_it
-- utter_find_alternatives
