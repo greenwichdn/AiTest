@@ -22,16 +22,20 @@ actions:
 - utter_happy
 - utter_on_it
 entities:
-- Text
 - age
 - category
 - color
-- detailcategory
 - gender
 - size
-- type
+- brand
 intents:
 - inform
+- give_gender
+- give_size
+- give_category
+- give_age
+- give_brand
+- give_color
 - greet
 - affirm
 - continue
@@ -45,11 +49,9 @@ intents:
 - mood_surprise
 - mood_unhappy
 - postpone
-- thankyou
-- review
+- thanks
 - buy_bonus
 - mood_disgust
-- gossip
 slots:
   age:
     type: text
@@ -68,30 +70,30 @@ slots:
   type:
     type: text
 templates:
+  utter_ask_age:
+  - text: May I ask how old are you?
   utter_ack_dosearch:
   - text: ok let me see what I can find.
   utter_ack_findalternatives:
   - text: ok let me see what else there is.
   utter_ack_makeorder:
-  - text: ok i want to order this.
+  - text: ok I'll place an order for you
   utter_ask_anythingelse:
   - text: anything else sir/madam?
   utter_ask_color:
-  - text: which color is your choice?
+  - text: Which color do you prefer?
   utter_ask_gender:
-  - text: are you male, female or others?
+  - text: Are you trying to buy clothes for a man or woman?
   utter_ask_howcanhelp:
   - text: How can i help you?
-  utter_ask_morecategory:
-  - text: can you give me more details about your category?
+  utter_ask_category:
+  - text: What category of clothing you're trying to buy?
   utter_ask_moreupdates:
-  - text: can you give more information?
-  utter_ask_price_range:
-  - text: how much you can pay?
+  - text: Can you give more information?
   utter_ask_size:
-  - text: how big is your cloth?
-  utter_ask_type:
-  - text: which is your preferred type of cloth?
+  - text: What is your size?
+  utter_ask_brand:
+  - text: What brand do you prefer?
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Here is something to cheer you up:'

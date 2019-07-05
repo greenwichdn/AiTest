@@ -1,19 +1,19 @@
 ## story1_positive1
 * greet
+ - utter_greet
  - utter_ask_howcanhelp
-* inform{"category": "pants"}
- - utter_on_it
- - utter_ask_morecategory
-* inform{"detailcategory": "short"}
- - utter_ask_gender
+* inform
+ - utter_ask_category
+* give_category{"category": "pants"}
+  - utter_ask_gender
 * inform{"gender": "male"}
  - utter_ask_size
 * inform{"size":"M"}
  - utter_ask_color
 * inform{"color":"black"} 
- - utter_ask_moreupdates
-* inform{"type": "authentic brand"}
- - utter_ask_moreupdates
+ - utter_ask_brand
+* inform{"brand": "authentic brand"}
+ - utter_ask_age
 * inform{"age":"18"}
  - utter_ask_moreupdates
 * deny

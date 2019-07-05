@@ -45,22 +45,37 @@
 - Hello
 - Hello
 
-## intent:inform
+##intent: inform
+- I want to buy something
+
+## intent: give_category
 - i want to buy a [pant](category)
-- i want to buy a [short](detailcategory)
-- i am [male](gender)
+- i want to buy a [short](category)
+
+##intent: give_gender
+- i am [a man](gender)
+- I am buying for a [girl](gender)
+
+##intent: give_size
 - my size is [M](size)
-- i choose [black](color) one
-- the price range is [under 100$](price_range)
-- my preferred type is [authentic brand](type)
+- I wear [Small](size) clothes
+
+##intent: give_color
+- I choose [black](color) one
+- I'd like a [blue](color) theme
+- I prefer [red](color) tone
+
+##intent: give_brand
+- My preferred type is [LV](brand)
+- [Uniqlo](brand) would be nice
+
+##intent: give_age
 - my age is [18](age)
-- I'm a [man](gender)
-- [Medium](size)
+- I'm [21](age) years old
 
 ## intent:mood_anger
-- noway for that
-- that price is a lie
-- how can your shop survive with that price ?
+- No way!
+- That price is a ripoff
 
 ## intent:mood_disgust
 - ew those holes on the shirts
@@ -106,11 +121,6 @@
 - Let me think
 - Hold on, I'll be back.
 
-## intent:review
-- see good review
-- see bad review
-- see latest review
-
-## intent:thankyou
+## intent:thanks
 - thank you for choosing your shop
 - thanks for buying
