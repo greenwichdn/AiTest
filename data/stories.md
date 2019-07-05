@@ -93,3 +93,42 @@
 * affirm
   - utter_goodbye
 
+
+## Generated Story -449153110054162129
+* greet
+    - utter_greet
+    - utter_ask_inquire
+* give_category
+    - rewind
+* inform
+    - utter_ask_category
+* give_category{"category": "pant"}
+    - slot{"category": "pant"}
+    - utter_ask_gender
+* mood_surprise
+    - rewind
+* give_gender{"gender": "boy"}
+    - slot{"gender": "boy"}
+    - utter_ask_size
+* buy_bonus
+    - rewind
+* give_size{"size": "medium"}
+    - slot{"size": "medium"}
+    - utter_ask_color
+* gossip
+    - rewind
+* give_color{"color": "blue"}
+    - slot{"color": "blue"}
+    - utter_ask_more
+* buy_bonus
+    - rewind
+* give_brand{"brand": "H&M"}
+    - utter_acknowledge
+    - action_search_item
+    - action_suggest
+* greet
+    - rewind
+* thanks
+    - utter_ack_order
+* goodbye
+    - utter_goodbye

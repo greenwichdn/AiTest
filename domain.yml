@@ -1,98 +1,5 @@
-intents:
-- affirm
-- buy_bonus
-- continue
-- deny
-- give_age
-- give_brand
-- give_category
-- give_color
-- give_gender
-- give_size
-- goodbye
-- gossip
-- greet
-- inform
-- mood_anger
-- mood_disgust
-- mood_fear
-- mood_great
-- mood_happiness
-- mood_sadness
-- mood_surprise
-- mood_unhappy
-- postpone
-- thanks
-- thankyou
-entities:
-- Text
-- age
-- brand
-- category
-- color
-- detailcategory
-- gender
-- size
-- type
-slots:
-  age:
-    type: text
-  category:
-    type: text
-  color:
-    type: text
-  detailcategory:
-    type: text
-  gender:
-    type: text
-  price_range:
-    type: text
-  size:
-    type: text
-  type:
-    type: text
-templates:
-  utter_acknowledge:
-  - text: thank you, I have received the details!
-  utter_ask_age:
-  - text: May I ask how old are you?
-  utter_ack_dosearch:
-  - text: ok let me see what I can find.
-  utter_ack_findalternatives:
-  - text: ok let me see what else there is.
-  utter_ack_order:
-  - text: ok I'll place an order for you
-  utter_ask_anythingelse:
-  - text: anything else sir/madam?
-  utter_ask_color:
-  - text: Which color do you prefer?
-  utter_ask_gender:
-  - text: Are you trying to buy clothes for a man or woman?
-  utter_ask_inquire:
-  - text: How can I help you?
-  utter_ask_category:
-  - text: What category of clothing you're trying to buy?
-  utter_ask_more:
-  - text: Is there anything else?
-  utter_ask_size:
-  - text: What is your size?
-  utter_ask_brand:
-  - text: What brand do you prefer?
-  utter_cheer_up:
-  - image: https://i.imgur.com/nGF1K8f.jpg
-    text: 'Here is something to cheer you up:'
-  utter_did_that_help:
-  - text: Did that help you?
-  utter_goodbye:
-  - text: Bye
-  utter_greet:
-  - text: Hey! How are you?
-  utter_happy:
-  - text: Great carry on!
-  utter_on_it:
-  - text: I'm on it now.
-  utter_find_alternatives:
-  - text: okay, I'll find something else.
+%YAML 1.1
+---
 actions:
 - action_search_item
 - action_suggest
@@ -114,3 +21,94 @@ actions:
 - utter_greet
 - utter_happy
 - utter_on_it
+entities:
+- Text
+- age
+- brand
+- category
+- color
+- detailcategory
+- gender
+- size
+- type
+intents:
+- inform
+- gossip
+- thanks
+- buy_bonus
+- give_size
+- goodbye
+- give_category
+- greet
+- give_gender
+- give_brand
+- give_color
+- mood_surprise
+- affirm
+- continue
+- deny
+- give_age
+- mood_anger
+- mood_disgust
+- mood_fear
+- mood_great
+- mood_happiness
+- mood_sadness
+- mood_unhappy
+- postpone
+- thankyou
+slots:
+  age:
+    type: text
+  category:
+    type: text
+  color:
+    type: text
+  gender:
+    type: text
+  size:
+    type: text
+  brand:
+    brand: text
+templates:
+  utter_ack_dosearch:
+  - text: ok let me see what I can find.
+  utter_ack_findalternatives:
+  - text: ok let me see what else there is.
+  utter_ack_order:
+  - text: ok I'll place an order for you
+  utter_acknowledge:
+  - text: thank you, I have received the details!
+  utter_ask_age:
+  - text: May I ask how old are you?
+  utter_ask_anythingelse:
+  - text: anything else sir/madam?
+  utter_ask_brand:
+  - text: What brand do you prefer?
+  utter_ask_category:
+  - text: What category of clothing you're trying to buy?
+  utter_ask_color:
+  - text: Which color do you prefer?
+  utter_ask_gender:
+  - text: Are you trying to buy clothes for a man or woman?
+  utter_ask_inquire:
+  - text: How can I help you?
+  utter_ask_more:
+  - text: Is there anything else?
+  utter_ask_size:
+  - text: What is your size?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_find_alternatives:
+  - text: okay, I'll find something else.
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey! How are you?
+  utter_happy:
+  - text: Great carry on!
+  utter_on_it:
+  - text: I'm on it now.
